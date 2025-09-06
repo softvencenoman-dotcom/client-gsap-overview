@@ -43,7 +43,7 @@
         <!-- class name two -->
         <section class="two">
             <div
-                class="lft-two flex justify-center w-full h-[100vh] items-center mx-auto px-4 py-20 gap-10 bg-[#662115] text-white">
+                class="lft-two flex flex-col md:flex-row justify-center w-full h-[100vh] items-center mx-auto px-4 py-20 gap-10 bg-[#662115] text-white">
                 <div class=" w-[50%] h-[100%] mt-[50vh]">
                     <svg class="rotate-x-[50deg] w-[70%]" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                         <path fill="#e04428"
@@ -65,16 +65,16 @@
                 </div>
             </div>
         </section>
-        <section class="three bg-red-500 w-full h-[100vh] flex justify-center gap-5 items-center">
+        <section class="three overflow-hidden bg-red-500 w-full h-[100vh] flex justify-center gap-5 items-center">
+            <div class="card flex flex-col md:flex-row items-center relative justify-center w-[25vw] h-[60vh] bg-white rounded-xl">
+                <img id="dite_cocacola" class="absolute top-[-15%] left-[-2%] transition-[all] duration-[0.5s] ease-[cubic-bezier(0.19,1,0.22,1)]" src="./Asstes/dite-coke.png" alt="">
+                <h1 class="text-2xl mt-[50vh] font-bold text-center">Drinks</h1>
+            </div>
             <div class="card flex items-center relative justify-center w-[25vw] h-[60vh] bg-white rounded-xl">
-                <img id="#dite_cocacola" class="absolute top-[-15%] " src="./Asstes/dite-coke.png" alt="">
                 <h1 class="text-2xl mt-[50vh] font-bold text-center">Drinks</h1>
             </div>
-            <div class="card flex items-center justify-center w-[25vw] h-[60vh] bg-white rounded-xl">
-                <h1 class="text-2xl mt-[50vh] font-bold text-center">Drinks</h1>
-            </div>
-            <div class="card flex items-center justify-center relative w-[25vw] h-[60vh] bg-white rounded-xl">
-                <img id="#fanta" class="absolute top-[-15%] " src="./Asstes/dite-coke.png" alt="">
+            <div class="card flex flex-col md:flex-row relative items-center justify-center w-[25vw] h-[60vh] bg-white rounded-xl">
+                <img id="fanta" class="absolute top-[-15%] left-[-2%] transition-[all] duration-[0.5s] ease-[cubic-bezier(0.19,1,0.22,1)]" src="./Asstes/dite-coke.png" alt="">
                 <h1 class="text-2xl mt-[50vh] font-bold text-center">Drinks</h1>
             </div>
         </section>
@@ -91,3 +91,4 @@
 </body>
 
 </html>
+

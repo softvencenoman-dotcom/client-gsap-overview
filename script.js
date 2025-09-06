@@ -23,7 +23,7 @@ let tl2 = gsap.timeline({scrollTrigger:{
     start:"0% 95%",
     end:"70% 50%",
     scrub: true,
-    // markers:true
+    // markers:true,
 }})
 
 tl2.to("#cocacola", {
@@ -35,4 +35,16 @@ tl2.to("#cocacola", {
 tl2.to("#cocacola",{
     top:"220%",
     left:"43%", 
+})
+
+tl2.from("#dite_cocacola",{
+    rotate: "-45deg",
+    top: "15%",
+    left: "-50%",
+})
+
+tl2.from("#fanta",{
+    rotate: "45deg",
+    top: "30%",
+    left: "50%",
 })
